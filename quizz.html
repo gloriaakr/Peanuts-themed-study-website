@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snoopy Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <header>
+    <h1>🧠 Quiz Time with Snoopy!</h1>
+  </header>
+
+  <main>
+    <section id="quiz-container">
+      <div id="question-box">
+        <h2 id="question">Question goes here...</h2>
+        <ul id="choices">
+          <!-- Options will be inserted here -->
+        </ul>
+        <button id="next-btn">Next ➡️</button>
+      </div>
+
+      <div id="result-box" style="display: none">
+        <h2>Your Score: <span id="score"></span>/5</h2>
+        <button onclick="startQuiz()">Try Again 🔁</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
