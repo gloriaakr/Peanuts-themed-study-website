@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards - Snoopy Study</title>
+  <link rel="stylesheet" href="flashcards.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">SnoopyStudy</div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="flashcards.html">Flashcards</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="flashcard-main">
+    <h1>Flashcards</h1>
+    <div class="flashcard-container">
+      <!-- Flashcard Template -->
+      <div class="flashcard">
+        <div class="front">What is a variable?</div>
+        <div class="back">A storage location identified by a name that holds data.</div>
+      </div>
+      <div class="flashcard">
+        <div class="front">What does HTML stand for?</div>
+        <div class="back">HyperText Markup Language</div>
+      </div>
+      <!-- More cards will be dynamically generated -->
+    </div>
+    <button class="add-btn">+ Generate More with AI</button>
+  </main>
+
+  <script src="flashcards.js"></script>
+</body>
+</html>
