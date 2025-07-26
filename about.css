@@ -1,0 +1,72 @@
+/* about.css */
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  background-color: #ffe0e6;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px dashed #ffb6b9;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #ff69b4;
+  text-shadow: 1px 1px #fff;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+  background-image: url('img/woodstock-fly.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: flyAcross 12s linear infinite;
+  opacity: 0.3;
+}
+
+@keyframes flyAcross {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(100vw) rotate(360deg);
+  }
+}
+
+h2 {
+  font-size: 2em;
+  color: #ff69b4;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
