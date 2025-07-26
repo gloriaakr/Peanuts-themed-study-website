@@ -1,0 +1,68 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #ffe2ec, #fff6f6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Login Box */
+.login-container {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+  position: relative;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #d81b60;
+}
+
+/* Form Inputs */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #d81b60;
+  outline: none;
+}
+
+/* Login Button */
+.login-container button {
+  background-color: #d81b60;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #c2185b;
+}
+
+/* Snoopy Animat*
