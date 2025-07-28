@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Review Flashcards</title>
+  <link rel="stylesheet" href="review.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="hint-text">Click the card to flip! 🔄</div>
+
+  <div class="flashcard-container">
+    <div class="flashcard" id="flashcard">
+      <div class="front" id="card-front">Front of Card</div>
+      <div class="back" id="card-back">Back of Card</div>
+    </div>
+    <div class="controls">
+      <button onclick="prevCard()">⬅ Prev</button>
+      <button onclick="flipCard()">🔄 Flip</button>
+      <button onclick="nextCard()">Next ➡</button>
+    </div>
+  </div>
+  <img src="gifs/Charlie Brown Dog GIF by Peanuts-2.gif" class="floating-buddy" />
+  <script src="review.js"></script>
+</body>
+<footer>
+    <p>© 2023 Peanuts Study Website</p>
+    <p>Made with ❤️ by Gloria</p>
+</footer>
+</html>
